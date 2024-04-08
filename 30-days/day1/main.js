@@ -84,7 +84,11 @@ let students = 30;
 // console.log(username);
 
 // 2. PROFESSIONAL WAY = HTML textbox 
-
+let username;
+document.getElementById("mySubmit").onclick = () => {
+  username =   document.getElementById("username").value;
+  document.getElementById("myH1").textContent = `Hello ${username}`
+}
 
 
 
