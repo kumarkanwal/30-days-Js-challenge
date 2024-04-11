@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +11,7 @@
     <style>
         /* Custom CSS for styling */
         body {
-            background-color: #6e6e6e;
+            background-color: #156064;
         }
 
         h1 {
@@ -20,6 +19,18 @@
             color: wheat;
             text-align: center;
             margin-bottom: 50px;
+        }
+        h2{
+            font-size: 2.2rem;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            margin-bottom: 20px;
+         font-weight: 700;
+
+
+        }
+        p{
+         text-align: justify;
         }
 
         .social-icons {
@@ -31,9 +42,6 @@
             margin-right: 20px;
             color: wheat;
         }
-        h2{
-            font-weight: 600;
-        }
 
         .project-box {
             padding: 20px;
@@ -42,96 +50,92 @@
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
         }
 
-        .day1 {
-            background-color: #cf4a4a; /* Red */
-            color: white;
-        }
+        .day1 { background-color: #00C49A; color: white; }
+        .day2 { background-color: #F8E16C; }
+        .day3 { background-color: #8338EC; }
+        .day4 { background-color: #FB8F67; }
+        .day5 { background-color: #FFC2B4; }
+        .day6 { background-color: #7CD383; }
 
-        .day2 {
-            background-color: #FFD166; /* Orange */
-        }
-
-        .day3 {
-            background-color: #06D6A0; /* Green */
-        }
-
-        .day4 {
-            background-color: #118AB2; /* Blue */
-        }
-
-        .day5 {
-            background-color: #8338EC; /* Purple */
-        }
-
-        .read-more-content {
-            display: none;
-        }
+        .read-more-content { display: none; }
     </style>
 </head>
-
 <body>
-    <h1 class="mt-5">Javascript Mini projects </h1>
+    <h1 class="mt-5">Javascript Mini projects</h1>
     
-       <!-- Social Icons -->
-       <div class="social-icons mt-5">
+    <!-- Social Icons -->
+    <div class="social-icons mt-5">
         <a href="https://github.com/kumarkanwal"><i class="fab fa-github"></i></a>
         <a href="https://www.linkedin.com/in/kanwal-kumar-it/"><i class="fab fa-linkedin"></i></a>
         <a href="https://www.instagram.com/kabil_developer2024/"><i class="fab fa-instagram"></i></a>
     </div>
 
     <div class="container mt-5">
-        <!-- Day 1 Project -->
-        <div class="project-box day1">
-            <h2 class="">Day 1: Accept user input</h2>
-            <p style="font-size: 1.2rem; font-weight: 500; padding-top: 5px;"> This is a beginner-friendly project where you can type something into a text box on a webpage.  Once you hit enter, <br> it'll show up in big letters on the screen.  It's a fun way to start learning how to make things happen on the web!</p>
-            <!-- Button to show/hide additional project details -->
-            <!-- <button class="btn btn-primary read-more">Read More</button> -->
-            <a href="../30-days/day1/index.html" class="btn btn-light">View Project</a>
-        </div>
+        <div class="row">
+            <!-- Bootstrap grid adjustments for responsive layout -->
+            <!-- Each project is now wrapped in a col-lg-4 for 3 cards in a row on large screens, and col-sm-12 for full width on smaller screens -->
+            
+            <!-- Day 1 Project -->
+            <div class="col-lg-4 col-sm-12">
+                <div class="project-box day1">
+                    <h2> 1. Accept User Input</h2>
+                    <p>This beginner-friendly project allows you to enter text into an input field on a webpage, and see it displayed elsewhere on the same page when submited. It serves as a practical exercise in accessing and manipulating input data with JavaScript, demonstrating how to dynamically update the content of a webpage
+                    </p>
+                    <a href="../30-days/day1/index.html" class="btn btn-light">View Project</a>
+                </div>
+            </div>
+            
+            <!-- Day 1 Project -->
+            <div class="col-lg-4 col-sm-12">
+                <div class="project-box day2">
+                    <h2>Day 1: Accept user input</h2>
+                    <p>This is a beginner-friendly project where you can type something into a text box on a webpage...</p>
+                    <a href="../30-days/day1/index.html" class="btn btn-light">View Project</a>
+                </div>
+            </div>
+            
+            <!-- Day 1 Project -->
+            <div class="col-lg-4 col-sm-12">
+                <div class="project-box day3">
+                    <h2>Day 1: Accept user input</h2>
+                    <p>This is a beginner-friendly project where you can type something into a text box on a webpage...</p>
+                    <a href="../30-days/day1/index.html" class="btn btn-light">View Project</a>
+                </div>
+            </div>
+            
+            <!-- Day 1 Project -->
+            <div class="col-lg-4 col-sm-12">
+                <div class="project-box day4">
+                    <h2>Day 1: Accept user input</h2>
+                    <p>This is a beginner-friendly project where you can type something into a text box on a webpage...</p>
+                    <a href="../30-days/day1/index.html" class="btn btn-light">View Project</a>
+                </div>
+            </div>
+            
+            <!-- Day 1 Project -->
+            <div class="col-lg-4 col-sm-12">
+                <div class="project-box day5">
+                    <h2>Day 1: Accept user input</h2>
+                    <p>This is a beginner-friendly project where you can type something into a text box on a webpage...</p>
+                    <a href="../30-days/day1/index.html" class="btn btn-light">View Project</a>
+                </div>
+            </div>
+            
+            <!-- Day 1 Project -->
+            <div class="col-lg-4 col-sm-12">
+                <div class="project-box day6">
+                    <h2>Day 1: Accept user input</h2>
+                    <p>This is a beginner-friendly project where you can type something into a text box on a webpage...</p>
+                    <a href="../30-days/day1/index.html" class="btn btn-light">View Project</a>
+                </div>
+            </div>
 
-        <!-- Day 2 Project -->
-        <div class="project-box day2">
-            <h2>Day 2: Project Title</h2>
-            <p>Description of your project goes here... <span class="read-more-content">Additional details of your project go here...</span></p>
-            <!-- Button to show/hide additional project details -->
-            <button class="btn btn-primary read-more">Read More</button>
-            <a href="day2_project_url" class="btn btn-light">View Project</a>
-        </div>
+            <!-- Repeat the structure for other projects -->
 
-        <!-- Day 3 Project -->
-        <div class="project-box day3">
-            <h2>Day 3: Project Title</h2>
-            <p>Description of your project goes here... <span class="read-more-content">Additional details of your project go here...</span></p>
-            <!-- Button to show/hide additional project details -->
-            <button class="btn btn-primary read-more">Read More</button>
-            <a href="day3_project_url" class="btn btn-light">View Project</a>
         </div>
-
-        <!-- Day 4 Project -->
-        <div class="project-box day4">
-            <h2>Day 4: Project Title</h2>
-            <p>Description of your project goes here... <span class="read-more-content">Additional details of your project go here...</span></p>
-            <!-- Button to show/hide additional project details -->
-            <button class="btn btn-primary read-more">Read More</button>
-            <a href="day4_project_url" class="btn btn-light">View Project</a>
-        </div>
-
-        <!-- Day 5 Project -->
-        <div class="project-box day5">
-            <h2>Day 5: Project Title</h2>
-            <p>Description of your project goes here... <span class="read-more-content">Additional details of your project go here...</span></p>
-            <!-- Button to show/hide additional project details -->
-            <button class="btn btn-primary read-more">Read More</button>
-            <a href="day5_project_url" class="btn btn-light">View Project</a>
-        </div>
-
-        <!-- Add more colorful project boxes for each day -->
     </div>
 
- 
-
-    <!-- Bootstrap JS (optional, if you need JavaScript functionality from Bootstrap) -->
+    <!-- Bootstrap JS (optional) -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-
 </html>

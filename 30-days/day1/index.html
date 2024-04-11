@@ -1,25 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Day # 01</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #e5e5e5; /* Light grey */
+        }
+
+        .card {
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            background-color: #ffffff; /* White */
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #14213d; /* Dark Blue */
+            font-weight: bold;
+            
+        }
+
+        input[type="text"] {
+            width: 80%; /* Makes the input stretch to the width of the card */
+            padding: 10px;
+            border-radius: 5px;
+            border: 2px solid #14213d; /* Dark Blue */
+            caret-color: #fca311; /* Orange */
+            margin-bottom: 20px; /* Increased space below input */
+            background-color: #ffffff; /* White */
+            color: #000000; /* Black */
+            text-align: center;
+
+        }
+
+        button {
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            background-color: #fca311; /* Orange */
+            color: #ffffff; /* White */
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #14213d; /* Dark Blue */
+            color: #ffffff; /* White */
+        }
+    </style>
 </head>
-
 <body>
-<!-- <p id="p1"></p>
-<p id="p2"></p>
-<p id="p3"></p> -->
+    <div class="card">
+        <h1 id="myH1" style="color: #14213d;">Welcome</h1> <!-- Applied the dark blue color to the heading -->
+        <label for="username">Username</label>
+        <input type="text" id="username">
+        <button id="mySubmit">Submit</button>
+    </div>
 
-
-<h1 id="myH1">Welcome</h1>
-<label for="username">Username:</label>
-<input type="text" id="username">
-<br><br>
-<button id="mySubmit">submit</button>
-
-<script src="main.js"></script>
+    <script src="main.js"></script>
 </body>
-
 </html>
