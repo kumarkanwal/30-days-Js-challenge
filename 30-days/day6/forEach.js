@@ -17,3 +17,20 @@ let numbers = [1, 2, 3, 4, 5];
 numbers.forEach(display);
 numbers.forEach(double);
 
+
+let fruits = ['apple', 'orange', 'banana', 'peach'];
+
+fruits.forEach(capitilize);
+fruits.forEach(display);
+
+function toUppercase(element){
+    element.toUpperCase();
+}
+
+function toUpperCase(element,index,array){
+    array[index] = element.toUpperCase();
+}
+
+function capitilize(element,index,array){
+    array[index] = element.charAt(0).toUpperCase() + element.slice(1);
+}
