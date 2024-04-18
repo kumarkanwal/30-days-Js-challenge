@@ -6,3 +6,18 @@
 // .previousElementSibling
 // parentElement
 // .children
+
+const element = document.getElementById("desserts");
+const firstChild = element.firstElementChild;
+
+firstChild.computedStyleMap.backgroundColor = "yellow";
+
+const lastChild = element.lastelementChild;
+
+// next siblings 
+
+const element2 = document.getElementById('apple');
+const nextSibling = element2.nextElementSibling;
+
+nextSibling.backgroundColor = "yellow";
+
