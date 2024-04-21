@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.colors-section {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 10px 29px 0px;
+  padding: 10px;
+  margin: 0 40px;
+  text-align: center;
+  position: fixed;
+  bottom: 30px;
+}
+.colors-section .random-color-container label {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.colors-section .random-color-container form {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+  align-items: center;
+}
+.colors-section .random-color-container form input[type=text] {
+  padding: 10px;
+  border: none;
+  border-radius: 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 30px 59px 10px;
+  caret-color: blue;
+  height: 100%;
+  border-radius: 10px;
+}
+.colors-section .random-color-container form input[type=text]:focus {
+  outline: none;
+  border-radius: 0px;
+}
+.colors-section .random-color-container form input[type=color] {
+  height: 40px;
+  width: 40px;
+  border: none;
+  margin-left: 10px;
+}
+.colors-section .random-color-container form div {
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 10px 29px 0px;
+  overflow: hidden;
+}
+.colors-section .random-color-container form div input[type=text] {
+  padding: 10px;
+  border: none;
+  border-radius: 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 30px 59px 10px;
+  caret-color: blue;
+  height: 100%;
+}
+.colors-section .random-color-container form div input[type=text]:focus {
+  outline: none;
+}
+.colors-section .random-color-container form div button {
+  background-color: blue;
+  text-align: center;
+  margin: 0;
+  padding: 7.5px 10px;
+  border-radius: 0px;
+  height: 100%;
+}
+.colors-section button {
+  font-size: 1.5rem;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  margin: 8px 10px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 10px 29px 0px;
+}
+.colors-section #buttons .red {
+  background-color: red;
+}
+.colors-section #buttons .yellow {
+  background-color: yellow;
+  color: black;
+}
+.colors-section #buttons .orange {
+  background-color: orange;
+}
+.colors-section #buttons .pink {
+  background-color: pink;
+}
+.colors-section #buttons .purple {
+  background-color: purple;
+}
+.colors-section #buttons .green {
+  background-color: green;
+}
+.colors-section #buttons .blue {
+  background-color: blue;
+}
+.colors-section #buttons .white {
+  background-color: white;
+  color: black;
+}
+.colors-section #buttons .black {
+  background-color: black;
+}
+.colors-section #buttons .grey {
+  background-color: grey;
+}
+.colors-section #buttons .brown {
+  background-color: brown;
+}
+.colors-section #buttons .tomato {
+  background-color: tomato;
+}/*# sourceMappingURL=style.css.map */
