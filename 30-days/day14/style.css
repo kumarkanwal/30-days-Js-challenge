@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    height: 100vh;
+
+}
+#myBox{
+
+    background-color: rgba(71, 172, 255, 0.849);
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+    font-size: 5rem;
+    font-weight: 600;
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
